@@ -9,39 +9,11 @@ Entrada O arquivo de entrada contém um número inteiro K que representa a quant
 
 Saída Imprima o tempo necessário para a moto Y ficar com a quantidade K de quilômetro da moto X, seguido da mensagem " minutos".
 
+
 #Segundo Desafio 
 
-import java.util.Scanner;
-public class Main{
-public static void main(String[] args){
-Scanner in = new Scanner(System.in);
-int A = in.nextInt();
-int B = in.nextInt();
-int SOMA = A+B;
-System.out.println("SOMA = "+SOMA);
-}
-}
+Soma Simples 
+
 
 #Terceiro Desafio 
 Dividindo x por y
-
-import java.util.Scanner;
-public class Divisao {
-
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        int n = input.nextInt();
-        for (int i = 0; i < n; i++) {
-            double  x = input.nextDouble();
-            double y = input.nextDouble();
-
-            if (y == 0) {
-                System.out.println("divisao impossivel");
-            } else {
-                double divisao = x / y;
-                System.out.printf("%.1f\n", divisao);
-            }
-        }
-
-    }
-}
