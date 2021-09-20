@@ -1,0 +1,51 @@
+Respostas do Primeiro desafio da Dio - Java
+
+Calcular o Tempo
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+    	int minutos;
+    	Scanner input = new Scanner(System.in);
+    	minutos = input.nextInt();
+
+    	System.out.printf("%d minutos\n", 2 * minutos ); // Digite aqui o calculo dos minutos
+     }  
+}
+
+Soma simples Java
+
+import java.util.Scanner;
+public class Main{
+public static void main(String[] args){
+Scanner in = new Scanner(System.in);
+int A = in.nextInt();
+int B = in.nextInt();
+int SOMA = A+B;
+System.out.println("SOMA = "+SOMA);
+}
+}
+
+Dividindo x por y
+
+import java.util.Scanner;
+public class Divisao {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int n = input.nextInt();
+        for (int i = 0; i < n; i++) {
+            double  x = input.nextDouble();
+            double y = input.nextDouble();
+
+            if (y == 0) {
+                System.out.println("divisao impossivel");
+            } else {
+                double divisao = x / y;
+                System.out.printf("%.1f\n", divisao);
+            }
+        }
+
+    }
+}
